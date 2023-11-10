@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Your voicevista-front
+
+This is the front-end of our project built with Next.js.
+
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Dependencies](#dependencies)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+VoiceVista-Frontend is a project that aims to recreate the frontend infrastructure of a popular communication platform like Discord. It provides real-time chat, voice, and video communication features, user management, and more.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Node.js](https://nodejs.org/)
+- [bun](https://bun.sh/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    git clone https://github.com/SmileSourceHub/voicevista-front.git
+    ```
 
-## Learn More
+2. Change into the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    cd voicevista-front
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    bun install
+    ```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+...coming
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Folder Structure
+
+```plaintext
+├── app/               # Next.js pages
+├── components/        # React components (This is where your Atomic Design components are organized)
+│   ├── components/    # Atoms components
+│   ├── molecules/     # Molecules components
+│   ├── organisms      # Molecules components
+│   └── templates/     # Templates components
+├── public/            # Static assets
+├── next.config.js     # Next.js configuration
+├── package.json       # Project dependencies and scripts
+└── tailwind.config.js # Tailwind configuration
